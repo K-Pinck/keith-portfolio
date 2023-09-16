@@ -7,7 +7,7 @@
         Skills
       </h1>
       <!-- Flex container -->
-      <div class="skills-content h-screen flex flex-col sm:flex-row items-stretch gap-4">
+      <div class="skills-content flex flex-col sm:flex-row items-stretch gap-4">
         <!-- col 1 -->
         <div class="col-1 sm:w-1/2 rounded-md">
           <!-- Col header -->
