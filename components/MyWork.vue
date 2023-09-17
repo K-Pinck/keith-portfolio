@@ -14,7 +14,9 @@
         challenge and an opportunity to push creative boundaries.
       </p>
     </div>
-    <div class="mywork-grid__container grid sm:grid-cols-3 gap-6 sm:gap-4 py-8 border rounded-md bg-white/20">
+    <div
+      class="mywork-grid__container grid sm:grid-cols-3 gap-6 sm:gap-4 py-8 rounded-md bg-white/20"
+    >
       <div v-for="work in mywork" :key="work.name">
         <!-- Card -->
         <div class="work-card w-4/5 border rounded-md mx-auto">
@@ -26,8 +28,10 @@
             />
           </div>
           <div class="work-card_body flex flex-col gap-2 p-3">
-              <h3 class="text-2xl text-white font-bold drop-shadow-md">{{ work.name }}</h3>
-              <p class="text-white drop-shadow-md">{{ work.description }}</p>
+            <h3 class="text-2xl text-white font-bold drop-shadow-md">
+              {{ work.name }}
+            </h3>
+            <p class="text-white drop-shadow-md">{{ work.description }}</p>
           </div>
         </div>
         <!-- /Card -->
@@ -44,21 +48,24 @@ const props = defineProps({
     default: () => [
       {
         name: "Project 1",
-        description: "This is a description of project 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget nisi vel ex aliquet facilisis. Fusce ut justo eget.",
+        description:
+          "This is a description of project 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget nisi vel ex aliquet facilisis. Fusce ut justo eget.",
         url: "https://www.google.com",
         img: "/code-icon.svg",
         alt: "Project 1",
       },
       {
         name: "Project 2",
-        description: "This is a description of project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget nisi vel ex aliquet facilisis. Fusce ut justo eget.",
+        description:
+          "This is a description of project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget nisi vel ex aliquet facilisis. Fusce ut justo eget.",
         url: "https://www.google.com",
         img: "/code-icon.svg",
         alt: "Project 2",
       },
       {
         name: "Project 3",
-        description: "This is a description of project 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget nisi vel ex aliquet facilisis. Fusce ut justo eget.",
+        description:
+          "This is a description of project 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget nisi vel ex aliquet facilisis. Fusce ut justo eget.",
         url: "https://www.google.com",
         img: "/code-icon.svg",
         alt: "Project 3",
