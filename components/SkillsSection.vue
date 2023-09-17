@@ -1,5 +1,5 @@
 <template>
-  <section class="skills-main p-6 border">
+  <section class="skills-main p-6">
     <div class="skills-content">
       <h1
         class="text-4xl sm:text-6xl text-center sm:text-left text-white font-bold pb-4"
@@ -9,14 +9,14 @@
       <!-- Flex container -->
       <div class="skills-content flex flex-col sm:flex-row items-stretch gap-4">
         <!-- col 1 -->
-        <div class="col-1 w-1/2 flex-1">
+        <div class="col-1 sm:w-1/2 flex-1">
           <!-- Col header -->
           <div
             class="col-header w-full bg-gray-300 flex flex-col items-center p-4 rounded-t-md"
           >
             <img
               src="@/assets/code-icon.svg"
-              class="w-[5rem] h-[5rem] bg-green-500 p-4 border rounded-full"
+              class="w-[4rem] h-[4rem] sm:w-[5rem] sm:h-[5rem] bg-green-500 p-4 border rounded-full"
               alt="Code Icon"
             />
             <h3 class="text-2xl text-blue-950 font-bold">Development</h3>
@@ -58,14 +58,14 @@
         </div>
         <!-- /col 1 -->
         <!-- col 2 -->
-        <div class="col-2 w-1/2 flex-1">
+        <div class="col-2 sm:w-1/2 flex-1">
           <!-- Col header -->
           <div
             class="col-header w-full bg-gray-300 flex flex-col items-center p-4 rounded-t-md"
           >
             <img
               src="@/assets/pen-tool-icon.svg"
-              class="w-[5rem] h-[5rem] bg-green-500 p-4 border rounded-full"
+              class="w-[4rem] h-[4rem] sm:w-[5rem] sm:h-[5rem] bg-green-500 p-4 border rounded-full"
               alt="Code Icon"
             />
             <h3 class="text-2xl text-blue-950 font-bold">Design</h3>
