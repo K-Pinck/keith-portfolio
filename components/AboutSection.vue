@@ -9,7 +9,7 @@
           A Little About Me
         </h1>
         <p class="text-white text-lg">
-          Welcome to my portfolio. I'm a developer and designer based in
+          Welcome to my portfolio. I'm a web developer and designer based in
           Arlington, TX, currently freelancing to bring creative and technical
           solutions to life. With a passion for crafting digital experiences
           that blend innovation and functionality, I've had the privilege of

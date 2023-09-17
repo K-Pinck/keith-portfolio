@@ -9,7 +9,7 @@
       <!-- Flex container -->
       <div class="skills-content flex flex-col sm:flex-row items-stretch gap-4">
         <!-- col 1 -->
-        <div class="col-1 sm:w-1/2 rounded-md">
+        <div class="col-1 w-1/2 flex-1">
           <!-- Col header -->
           <div
             class="col-header w-full bg-gray-300 flex flex-col items-center p-4 rounded-t-md"
@@ -29,7 +29,7 @@
               functional and visually captivating digital experiences. While I
               relish the creative freedom that coding offers, I also understand
               the value of platforms like WordPress. I am preparing to take some
-              courses on Node.js and PHP and am willing to learn those skills to
+              courses on Node.js(I already use package managers daily, including npm), PHP, and React to
               expand my toolset
             </p>
             <h3 class="text-2xl font-bold">Languages</h3>
@@ -58,7 +58,7 @@
         </div>
         <!-- /col 1 -->
         <!-- col 2 -->
-        <div class="col-2 sm:w-1/2 h-full flex-1">
+        <div class="col-2 w-1/2 flex-1">
           <!-- Col header -->
           <div
             class="col-header w-full bg-gray-300 flex flex-col items-center p-4 rounded-t-md"
@@ -73,7 +73,7 @@
           <!-- /Col header -->
           <!-- Col main  -->
           <div class="col-main p-8 text-white border rounded-b-md">
-            <p class="pb-3">
+            <p class="pb-3 ">
               While my primary focus is on coding, I've had the privilege of
               designing numerous websites, and I take pride in delivering
               visually captivating and user-friendly experiences. My journey as
@@ -81,7 +81,7 @@
               gap between creative aesthetics and functional excellence.
             </p>
             <h3 class="text-2xl font-bold">Tools</h3>
-            <ul class="pl-2 pb-3 ">
+            <ul class="pl-2 pb-3">
               <li class="text-lg">- PhotoShop</li>
               <li class="text-lg">- Illustrator</li>
               <li class="text-lg">- InDesign</li>
