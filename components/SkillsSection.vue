@@ -29,8 +29,8 @@
               functional and visually captivating digital experiences. While I
               relish the creative freedom that coding offers, I also understand
               the value of platforms like WordPress. I am preparing to take some
-              courses on Node.js(I already use package managers daily, including npm), PHP, and React to
-              expand my toolset
+              courses on Node.js(I already use package managers daily, including
+              npm), PHP, and React to expand my toolset
             </p>
             <h3 class="text-2xl font-bold">Languages</h3>
             <ul class="pl-2 pb-3 border-b">
@@ -73,7 +73,7 @@
           <!-- /Col header -->
           <!-- Col main  -->
           <div class="col-main p-8 text-white border rounded-b-md">
-            <p class="pb-3 ">
+            <p class="pb-3">
               While my primary focus is on coding, I've had the privilege of
               designing numerous websites, and I take pride in delivering
               visually captivating and user-friendly experiences. My journey as
