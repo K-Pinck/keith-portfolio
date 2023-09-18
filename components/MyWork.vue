@@ -15,12 +15,12 @@
       </p>
     </div>
     <div
-      class="mywork-grid__container grid md:grid-cols-3 gap-6 sm:gap-4 py-8 rounded-md bg-white/20"
+      class="mywork-grid__container grid md:grid-cols-3 gap-6 p-8 rounded-md bg-white/20"
     >
       <div v-for="work in mywork" :key="work.name">
         <!-- Card -->
         <div
-          class="work-card w-4/5 h-full border rounded-md mx-auto overflow-hidden"
+          class="work-card w-full h-full border rounded-md mx-auto overflow-hidden"
         >
           <div
             class="mywork-card_header bg-white relative w-full h-[28vh] border-b overflow-hidden"
@@ -28,7 +28,7 @@
             <NuxtImg
               :src="work.img"
               :alt="work.alt"
-              class="object-cover w-full h-full z-0 border rounded-t-md"
+              class="object-cover w-full h-full z-0 rounded-t-md"
             />
             <div
               class="hover:bg-black/90 w-full h-full flex justify-center items-center absolute top-0 left-0 z-10 opacity-0 hover:opacity-100 transition-all duration-300 ease-in-out  rounded-t-md"
