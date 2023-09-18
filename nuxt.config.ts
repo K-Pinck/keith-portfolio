@@ -5,4 +5,7 @@ export default defineNuxtConfig({
   alias: {
     assets: "/<rootDir>/assets",
   },
+  image: {
+    dir: "assets/",
+  },
 });

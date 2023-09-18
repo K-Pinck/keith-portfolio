@@ -23,7 +23,7 @@
           <div
             class="mywork-card_header relative w-full h-[28vh] border-b overflow-hidden"
           >
-            <img
+            <NuxtImg
               :src="work.img"
               :alt="work.alt"
               class="object-cover w-full h-full z-0 rounded-t-md"
@@ -49,11 +49,16 @@
         </div>
         <!-- /Card -->
       </div>
+      <img src="/SecuredMoving.jpg" alt="">
     </div>
   </section>
 </template>
 
 <script setup>
+// import SecruredMoving from "@/assets/SecuredMoving.jpg";
+// import BlueStar from "@/assets/BlueStar.jpg";
+// import URMRC from "@/assets/USMRC.jpg";
+
 const props = defineProps({
   mywork: {
     type: Array,
