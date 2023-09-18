@@ -1,4 +1,3 @@
-
 import ContactForm from './ContactForm.vue';
 <template>
   <section class="contact p-6">
@@ -16,13 +15,23 @@ import ContactForm from './ContactForm.vue';
         I'm eager to connect. Please don't hesitate to reach out, and let's
         discuss how I can contribute to your goals and projects. Your message is
         the first step towards building a successful digital presence or
-        exploring potential employment possibilities. Contact me through phone or email <span class="font-bold text-gray-300 underline underline-offset-4">or just fill out the form below.</span>
+        exploring potential employment possibilities. Contact me through phone
+        or email
+        <span class="font-bold text-gray-300 underline underline-offset-4">
+          or just fill out the form below.
+        </span>
       </p>
     </div>
     <div class="contact-main">
-      <div class="text-2xl text-white w-2/3 flex gap-6 p-2">
-         <a href="tel:8173139553" >Phone: <span class="text-green-400">(817)313-9553</span></a>
-         <a href="mailto:keith@emkay-design.com">Email: <span class="text-green-400">keith@emkay-design.com</span></a>
+      <div class="text-2xl text-white sm:w-2/3 flex flex-col gap-2 pb-3">
+        <a href="tel:8173139553" class="">
+          Phone:
+          <span class="text-green-400">(817)313-9553</span>
+        </a>
+        <a href="mailto:keith@emkay-design.com" class="">
+          Email:
+          <span class="text-green-400">keith@emkay-design.com</span>
+        </a>
       </div>
       <div class="contact-form__wrap">
         <!-- Form -->

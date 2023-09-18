@@ -13,7 +13,7 @@
   ```
 -->
 <template>
-    <div class="isolate rounded-md p-6 border">
+    <div class="isolate bg-white/20 rounded-md p-6">
       <form action="#" method="POST" class="mx-auto  max-w-5xl">
         <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div>
