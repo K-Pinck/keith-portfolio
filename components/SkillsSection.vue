@@ -58,7 +58,7 @@
         </div>
         <!-- /col 1 -->
         <!-- col 2 -->
-        <div class="col-2 sm:w-1/2 flex-1 border">
+        <div class="col-2 sm:w-1/2 flex-1 border rounded-md">
           <!-- Col header -->
           <div
             class="col-header w-full bg-gray-300 flex flex-col items-center p-4 rounded-t-md"
