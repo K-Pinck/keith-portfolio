@@ -1,7 +1,7 @@
 
 import ContactForm from './ContactForm.vue';
 <template>
-  <section class="contact p-6 border">
+  <section class="contact p-6">
     <h1
       class="text-4xl sm:text-5xl text-white text-center sm:text-left font-bold"
     >
@@ -16,18 +16,15 @@ import ContactForm from './ContactForm.vue';
         I'm eager to connect. Please don't hesitate to reach out, and let's
         discuss how I can contribute to your goals and projects. Your message is
         the first step towards building a successful digital presence or
-        exploring potential employment possibilities.
+        exploring potential employment possibilities. Contact me through phone or email <span class="font-bold text-gray-300 underline underline-offset-4">or just fill out the form below.</span>
       </p>
     </div>
-    <div class="contact-main flex flex-col md:flex-row gap-3 border">
-      <div class="col-1 sm:w-1/3 p-3 ">
-        <h3 class="text-2xl text-white font-bold">Contact Info</h3>
-        <ul class="pl-2 text-white">
-          <li class="text-lg"><a href="tel:8173139553" >- Phone: <span class="text-green-400">(817)313-9553</span></a></li>
-          <li class="text-lg"><a href="mailto:keith@emkay-design.com">- Email: <span class="text-green-400">keith@emkay-design.com</span></a></li>
-          </ul>
+    <div class="contact-main">
+      <div class="text-2xl text-white w-2/3 flex gap-6 p-2">
+         <a href="tel:8173139553" >Phone: <span class="text-green-400">(817)313-9553</span></a>
+         <a href="mailto:keith@emkay-design.com">Email: <span class="text-green-400">keith@emkay-design.com</span></a>
       </div>
-      <div class="col-2 w-2/3 p-3 border">
+      <div class="contact-form__wrap">
         <!-- Form -->
         <ContactForm />
         <!-- /form -->
