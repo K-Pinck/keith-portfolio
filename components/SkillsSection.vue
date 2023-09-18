@@ -58,7 +58,7 @@
         </div>
         <!-- /col 1 -->
         <!-- col 2 -->
-        <div class="col-2 sm:w-1/2 flex-1">
+        <div class="col-2 sm:w-1/2 flex-1 border">
           <!-- Col header -->
           <div
             class="col-header w-full bg-gray-300 flex flex-col items-center p-4 rounded-t-md"
@@ -72,7 +72,7 @@
           </div>
           <!-- /Col header -->
           <!-- Col main  -->
-          <div class="col-main p-8 text-white border rounded-b-md">
+          <div class="col-main p-8 text-white rounded-b-md">
             <p class="pb-3">
               While my primary focus is on coding, I've had the privilege of
               designing numerous websites, and I take pride in delivering

@@ -19,7 +19,7 @@
     >
       <div v-for="work in mywork" :key="work.name">
         <!-- Card -->
-        <div class="work-card w-4/5 border rounded-md mx-auto">
+        <div class="work-card w-4/5 border rounded-md mx-auto overflow-hidden">
           <div
             class="mywork-card_header relative w-full h-[28vh] border-b overflow-hidden"
           >
@@ -28,8 +28,16 @@
               :alt="work.alt"
               class="object-cover w-full h-full z-0 rounded-t-md"
             />
-            <div class="hover:bg-black/90 w-full h-full flex justify-center items-center absolute top-0 left-0 z-10 opacity-0 hover:opacity-100 transition-all duration-300 ease-in-out rounded-t-md">
-                <a :href="work.url" target="_blank" class="text-xl text-green-500 hover:bg-green-500 hover:text-white font-bold border border-green-500 rounded-full px-4 py-2 transition-all duration-300 ease-in-out">Visit Website</a>
+            <div
+              class="hover:bg-black/90 w-full h-full flex justify-center items-center absolute top-0 left-0 z-10 opacity-0 hover:opacity-100 transition-all duration-300 ease-in-out rounded-t-md"
+            >
+              <a
+                :href="work.url"
+                target="_blank"
+                class="text-xl text-green-500 hover:bg-green-500 hover:text-white font-bold border border-green-500 rounded-full px-4 py-2 transition-all duration-300 ease-in-out"
+              >
+                Visit Website
+              </a>
             </div>
           </div>
           <div class="work-card_body h-52 flex flex-col gap-2 p-3">
@@ -65,7 +73,7 @@ const props = defineProps({
           "Local surveying company based out of Cleburne, TX. They offer a wide range of services, including boundary surveys, elevation certificates, and more.",
         url: "https://bluestarsurveying.com/",
         img: "/BlueStar.jpg",
-        alt: "Blue Star Surveying", 
+        alt: "Blue Star Surveying",
       },
       {
         name: "USMRC",
