@@ -19,7 +19,9 @@
     >
       <div v-for="work in mywork" :key="work.name">
         <!-- Card -->
-        <div class="work-card w-4/5 border rounded-md mx-auto overflow-hidden">
+        <div
+          class="work-card w-4/5 h-full border rounded-md mx-auto overflow-hidden"
+        >
           <div
             class="mywork-card_header relative w-full h-[28vh] border-b overflow-hidden"
           >
@@ -40,7 +42,7 @@
               </a>
             </div>
           </div>
-          <div class="work-card_body h-52 flex flex-col gap-2 p-3">
+          <div class="work-card_body flex flex-col gap-2 p-4">
             <h3 class="text-2xl text-white font-bold drop-shadow-md">
               {{ work.name }}
             </h3>
@@ -49,7 +51,7 @@
         </div>
         <!-- /Card -->
       </div>
-      <img src="/SecuredMoving.jpg" alt="">
+      <img src="/SecuredMoving.jpg" alt="" />
     </div>
   </section>
 </template>
@@ -64,6 +66,14 @@ const props = defineProps({
     type: Array,
     required: true,
     default: () => [
+      {
+        name: "Hill Building Group",
+        description:
+          "Construction company based in DFW. They specialize in commercial construction, and have a 5 star rating on Google.",
+        url: "https://www.hillbuildinggroup.com",
+        img: "/Hill-building-group.jpg",
+        alt: "Hill Building Group",
+      },
       {
         name: "Secured Moving",
         description:
@@ -86,6 +96,14 @@ const props = defineProps({
           "The USMRC at it’s core is a group of elite metal roofing companies who use their combined buying power to purchase the best products available at the lowest possible prices through bulk buying.",
         url: "https://usmetalroofingconsortium.com/",
         img: "/USMRC.jpg",
+        alt: "USMETALROOFINGCONSORTIUM.COM",
+      },
+      {
+        name: "USMRC - Savings Calculator",
+        description:
+          "A custom savings calculator that I built for USMRC to show potential customers how much they could save by switching to a metal roof.",
+        url: "https://usmetalroofingconsortium.com/",
+        img: "/Savings-calc.jpg",
         alt: "USMETALROOFINGCONSORTIUM.COM",
       },
     ],
