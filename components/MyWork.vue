@@ -23,20 +23,20 @@
           class="work-card w-4/5 h-full border rounded-md mx-auto overflow-hidden"
         >
           <div
-            class="mywork-card_header relative w-full h-[28vh] border-b overflow-hidden"
+            class="mywork-card_header bg-white relative w-full h-[28vh] border-b overflow-hidden"
           >
             <NuxtImg
               :src="work.img"
               :alt="work.alt"
-              class="object-cover w-full h-full z-0 rounded-t-md"
+              class="object-cover w-full h-full z-0 border rounded-t-md"
             />
             <div
-              class="hover:bg-black/90 w-full h-full flex justify-center items-center absolute top-0 left-0 z-10 opacity-0 hover:opacity-100 transition-all duration-300 ease-in-out rounded-t-md"
+              class="hover:bg-black/90 w-full h-full flex justify-center items-center absolute top-0 left-0 z-10 opacity-0 hover:opacity-100 transition-all duration-300 ease-in-out  rounded-t-md"
             >
               <a
                 :href="work.url"
                 target="_blank"
-                class="text-xl text-green-500 hover:bg-green-500 hover:text-white font-bold border border-green-500 rounded-full px-4 py-2 transition-all duration-300 ease-in-out"
+                class="text-xl text-green-500 hover:bg-green-500 hover:text-white font-bold border-2 border-green-500 rounded-full px-4 py-2 transition-all duration-300 ease-in-out"
               >
                 Visit Website
               </a>
@@ -57,9 +57,6 @@
 </template>
 
 <script setup>
-// import SecruredMoving from "@/assets/SecuredMoving.jpg";
-// import BlueStar from "@/assets/BlueStar.jpg";
-// import URMRC from "@/assets/USMRC.jpg";
 
 const props = defineProps({
   mywork: {
@@ -105,6 +102,14 @@ const props = defineProps({
         url: "https://usmetalroofingconsortium.com/",
         img: "/Savings-calc.jpg",
         alt: "USMETALROOFINGCONSORTIUM.COM",
+      },
+      {
+        name: "ProStar Builders",
+        description:
+          "A roofing company that specializes in high quality metal roofing with a combined 40 years of experience. Specializing in metal roofing of all types.",
+        url: "https://usmetalroofingconsortium.com/",
+        img: "/ProStar.jpg",
+        alt: "ProStar Builders",
       },
     ],
   },

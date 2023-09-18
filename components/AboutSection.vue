@@ -5,7 +5,7 @@
       <div
         class="about-col-2 sm:w-1/2 flex flex-col gap-y-3 p-4 font-sans border-b"
       >
-        <h1 class="text-4xl sm:text-5xl text-white font-bold">
+        <h1 class="text-4xl sm:text-5xl text-white text-center sm:text-left font-bold">
           A Little About Me
         </h1>
         <p class="text-white text-lg">

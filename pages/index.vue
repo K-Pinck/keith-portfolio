@@ -5,6 +5,7 @@
     <AboutSection />
     <SkillsSection />
     <MyWork />
+    <Contact />
   </div>
   <!-- /Page main -->
 </template>
