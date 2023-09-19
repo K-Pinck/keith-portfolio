@@ -1,9 +1,9 @@
 <template>
   <div class="about-main p-6">
-    <div class="flex-container flex">
-      <div class="about-col-1 w-1/2"></div>
+    <div class="flex-container flex flex-col sm:flex-row">
+      <div class="about-col-1 sm:w-1/2"></div>
       <div
-        class="about-col-2 sm:w-1/2 flex flex-col gap-y-3 p-4 font-sans"
+        class="about-col-2 sm:w-1/2 flex flex-col gap-y-3  font-sans "
       >
         <h1 class="text-4xl sm:text-5xl text-white text-center sm:text-left font-bold">
           A Little About Me
