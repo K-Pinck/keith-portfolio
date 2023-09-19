@@ -55,7 +55,6 @@
         </div>
         <!-- /Card -->
       </div>
-      <img src="/SecuredMoving.jpg" alt="" />
     </div>
   </section>
 </template>
@@ -79,7 +78,7 @@ const props = defineProps({
         description:
           "Moving company based in DFW with nearly 20 years of experience behind them. They cover both local and long distance moves, and have a 5 star rating on Google.",
         url: "https://www.securedmoving.com/",
-        img: "/SecuredMoving.jpg",
+        img: "/Secured-1.jpg",
         alt: "Secured Moving",
       },
       {
