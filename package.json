@@ -18,7 +18,6 @@
     "nuxt-headlessui": "^1.1.4"
   },
   "dependencies": {
-    "@headlessui/vue": "^1.7.16",
-    "@heroicons/vue": "^2.0.18"
+    "@headlessui/vue": "^1.7.16"
   }
 }
