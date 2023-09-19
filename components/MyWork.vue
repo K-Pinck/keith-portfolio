@@ -20,7 +20,7 @@
       <div v-for="work in mywork" :key="work.name">
         <!-- Card -->
         <div
-          class="work-card w-full h-full bg-black/10 border rounded-md mx-auto overflow-hidden"
+          class="work-card w-full h-full bg-black/30 border rounded-md mx-auto overflow-hidden"
         >
           <!-- Card header -->
           <div
