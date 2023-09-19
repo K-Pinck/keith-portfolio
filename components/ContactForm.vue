@@ -14,7 +14,7 @@
 -->
 <template>
   <div class="isolate bg-white/50 rounded-md p-6">
-    <form action="#" method="POST" class="mx-auto max-w-5xl">
+    <form action="#" method="POST" netlify class="mx-auto max-w-5xl">
       <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
         <div>
           <label
