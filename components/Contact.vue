@@ -23,7 +23,7 @@ import ContactForm from './ContactForm.vue';
       </p>
     </div>
     <div class="contact-main">
-      <div class="text-2xl text-white sm:w-2/3 flex flex-col gap-2 pb-3">
+      <div class="text-xl text-white sm:w-2/3 flex flex-col gap-2 pb-3">
         <a href="tel:8173139553" class="">
           Phone:
           <span class="text-green-500 font-thin italic underline underline-offset-4 decoration-0">(817)313-9553</span>
