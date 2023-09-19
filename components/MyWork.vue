@@ -78,7 +78,7 @@ const props = defineProps({
         description:
           "Moving company based in DFW with nearly 20 years of experience behind them. They cover both local and long distance moves, and have a 5 star rating on Google.",
         url: "https://www.securedmoving.com/",
-        img: "~/Secured-1.jpg",
+        img: "/assets/Secured-1.jpg",
         alt: "Secured Moving",
       },
       {
