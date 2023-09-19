@@ -9,7 +9,7 @@
       <!-- Flex container -->
       <div class="skills-content flex flex-col sm:flex-row items-stretch gap-4">
         <!-- col 1 -->
-        <div class="col-1 sm:w-1/2 flex-1 border rounded-md">
+        <div class="col-1 sm:w-1/2 flex-1 border rounded-md bg-black/80">
           <!-- Col header -->
           <div
             class="col-header w-full bg-white/50 flex flex-col items-center p-4 rounded-t-md"
@@ -23,7 +23,7 @@
           </div>
           <!-- /Col header -->
           <!-- Col main  -->
-          <div class="col-main p-8 text-white rounded-b-md">
+          <div class="col-main p-8 text-white rounded-b-md ">
             <p class="pb-3">
               As a passionate developer, I thrive on turning ideas into
               functional and visually captivating digital experiences. While I
@@ -58,7 +58,7 @@
         </div>
         <!-- /col 1 -->
         <!-- col 2 -->
-        <div class="col-2 sm:w-1/2 flex-1 border rounded-md">
+        <div class="col-2 sm:w-1/2 flex-1 border rounded-md bg-black/80">
           <!-- Col header -->
           <div
             class="col-header w-full bg-white/50 flex flex-col items-center p-4 rounded-t-md"
