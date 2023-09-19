@@ -22,8 +22,9 @@
         <div
           class="work-card w-full h-full bg-black/10 border rounded-md mx-auto overflow-hidden"
         >
+          <!-- Card header -->
           <div
-            class="mywork-card_header bg-white relative w-full h-[28vh] border-b overflow-hidden"
+            class="mywork-card_header bg-white relative w-full h-[22vh] overflow-hidden"
           >
             <NuxtImg
               :src="work.img"
@@ -31,7 +32,7 @@
               class="object-cover w-full h-full z-0 rounded-t-md"
             />
             <div
-              class="hover:bg-black/90 w-full h-full flex justify-center items-center absolute top-0 left-0 z-10 opacity-0 hover:opacity-100 transition-all duration-300 ease-in-out  rounded-t-md"
+              class="hover:bg-black/90 w-full h-full flex justify-center items-center absolute top-0 left-0 z-10 opacity-0 hover:opacity-100 transition-all duration-300 ease-in-out rounded-t-md"
             >
               <a
                 :href="work.url"
@@ -42,12 +43,15 @@
               </a>
             </div>
           </div>
+          <!-- /Card header -->
+          <!-- Card body -->
           <div class="work-card_body flex flex-col gap-2 p-4">
             <h3 class="text-2xl text-white font-bold drop-shadow-md">
               {{ work.name }}
             </h3>
             <p class="text-white drop-shadow-md">{{ work.description }}</p>
           </div>
+          <!-- /Card body -->
         </div>
         <!-- /Card -->
       </div>
@@ -57,7 +61,6 @@
 </template>
 
 <script setup>
-
 const props = defineProps({
   mywork: {
     type: Array,
