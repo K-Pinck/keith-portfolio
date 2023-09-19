@@ -63,7 +63,7 @@
 const props = defineProps({
   mywork: {
     type: Array,
-    required: true,
+    required: false,
     default: () => [
       {
         name: "Hill Building Group",
@@ -101,7 +101,7 @@ const props = defineProps({
         name: "USMRC - Savings Calculator",
         description:
           "A custom savings calculator that I built for USMRC to show potential customers how much they could save by switching to a metal roof.",
-        url: "https://usmetalroofingconsortium.com/",
+        url: "https://usmetalroofingconsortium.com/savings-calculator/",
         img: "/Savings-calc.jpg",
         alt: "USMETALROOFINGCONSORTIUM.COM",
       },
@@ -109,7 +109,7 @@ const props = defineProps({
         name: "ProStar Builders",
         description:
           "A roofing company that specializes in high quality metal roofing with a combined 40 years of experience. Specializing in metal roofing of all types.",
-        url: "https://usmetalroofingconsortium.com/",
+        url: "https://prostarbuilders.com/",
         img: "/ProStar.jpg",
         alt: "ProStar Builders",
       },
