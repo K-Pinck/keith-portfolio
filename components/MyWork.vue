@@ -26,7 +26,7 @@
           <div
             class="mywork-card_header bg-white relative w-full h-[22vh] overflow-hidden"
           >
-            <NuxtImg
+            <img
               :src="work.img"
               :alt="work.alt"
               class="object-cover w-full h-full z-0 rounded-t-md"
@@ -78,7 +78,7 @@ const props = defineProps({
         description:
           "Moving company based in DFW with nearly 20 years of experience behind them. They cover both local and long distance moves, and have a 5 star rating on Google.",
         url: "https://www.securedmoving.com/",
-        img: "/assets/Secured-1.jpg",
+        img: "/Secured-1.jpg",
         alt: "Secured Moving",
       },
       {
