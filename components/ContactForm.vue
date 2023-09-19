@@ -13,7 +13,7 @@
   ```
 -->
 <template>
-    <div class="isolate bg-white/40 rounded-md p-6">
+    <div class="isolate bg-white/50 rounded-md p-6">
       <form action="#" method="POST" class="mx-auto  max-w-5xl">
         <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div>
@@ -63,7 +63,7 @@
           </div>
         </div>
         <div class="mt-10">
-          <button type="submit" class="block w-full rounded-md bg-green-500 px-3.5 py-2.5 text-center text-xl font-semibold text-white shadow-sm hover:bg-green-600 ">Let's talk</button>
+          <button type="submit" class="block w-full rounded-md bg-purple-700 px-3.5 py-2.5 text-center text-xl font-semibold text-white shadow-sm hover:bg-purple-600 ">Let's talk</button>
         </div>
       </form>
     </div>

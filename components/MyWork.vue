@@ -15,12 +15,12 @@
       </p>
     </div>
     <div
-      class="mywork-grid__container grid md:grid-cols-3 gap-6 p-8 rounded-md bg-white/40"
+      class="mywork-grid__container grid md:grid-cols-3 gap-6 p-8 rounded-md bg-white/50"
     >
       <div v-for="work in mywork" :key="work.name">
         <!-- Card -->
         <div
-          class="work-card w-full h-full border rounded-md mx-auto overflow-hidden"
+          class="work-card w-full h-full bg-black/10 border rounded-md mx-auto overflow-hidden"
         >
           <div
             class="mywork-card_header bg-white relative w-full h-[28vh] border-b overflow-hidden"
