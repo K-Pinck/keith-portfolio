@@ -18,6 +18,7 @@
       action="#"
       method="POST"
       data-netlify="true"
+      name="contact"
       class="mx-auto max-w-5xl"
     >
       <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
