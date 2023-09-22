@@ -15,7 +15,6 @@
 <template>
   <div class="isolate bg-white/50 rounded-md p-6">
     <form
-      action="#"
       method="POST"
       data-netlify="true"
       class="mx-auto max-w-5xl"
