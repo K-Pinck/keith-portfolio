@@ -15,7 +15,7 @@
       </p>
     </div>
     <div
-      class="mywork-grid__container grid md:grid-cols-3 gap-6 p-8 sm:p-2 rounded-md bg-white/50"
+      class="mywork-grid__container grid md:grid-cols-3 gap-6 sm:p-2 p-8 rounded-md bg-white/50"
     >
       <div v-for="work in mywork" :key="work.name">
         <!-- Card -->
