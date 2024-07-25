@@ -65,13 +65,21 @@ const props = defineProps({
     type: Array,
     required: false,
     default: () => [
-    {
+     {
         name: "Hi Voltage Electric",
         description:
           "An east coast electrical company specializing in industrial, commercial and construction electrical installation, repair and maintenance.",
         url: "https://hivolt.maverickbuild.com",
         img: "/HiVoltage.jpg",
         alt: "Hi Voltage Electric",
+      },
+      {
+        name: "Gulf Stream Commercial Trades",
+        description:
+          "Trusted partner for commercial mechanical contracting services. They specialize in air-conditioning, plumbing, and electrical solutions.",
+        url: "https://gsctrades.com",
+        img: "/Gulf-stream.jpg",
+        alt: "Gulf Stream Trades",
       },
       {
         name: "Hill Building Group",
