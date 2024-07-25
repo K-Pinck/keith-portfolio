@@ -70,7 +70,7 @@ const props = defineProps({
         description:
           "An east coast electrical company specializing in industrial, commercial and construction electrical installation, repair and maintenance.",
         url: "https://hivolt.maverickbuild.com",
-        img: "/public/Hi-Voltage.jpg",
+        img: "/HiVoltage.jpg",
         alt: "Hi Voltage Electric",
       },
       {
