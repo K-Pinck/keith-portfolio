@@ -35,7 +35,7 @@ import ContactForm from './ContactForm.vue';
       </div>
       <!-- <div class="contact-form__wrap"> -->
         <!-- Form -->
-        <ContactForm />
+        <!-- <ContactForm /> -->
         <!-- /form -->
       <!-- </div> -->
     </div>
