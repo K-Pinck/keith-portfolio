@@ -65,6 +65,14 @@ const props = defineProps({
     type: Array,
     required: false,
     default: () => [
+    {
+        name: "ProStar Builders",
+        description:
+          "A roofing company that specializes in high quality metal roofing with a combined 40 years of experience. Specializing in metal roofing of all types.",
+        url: "https://prostarbuilders.com/",
+        img: "/ProStar.jpg",
+        alt: "ProStar Builders",
+      },
       {
         name: "Hill Building Group",
         description:
