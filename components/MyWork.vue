@@ -74,7 +74,7 @@ const props = defineProps({
         alt: "Hi Voltage Electric",
       },
       {
-        name: "Gulf Stream Commercial Trades",
+        name: "Gulf Stream Commercial",
         description:
           "Trusted partner for commercial mechanical contracting services. They specialize in air-conditioning, plumbing, and electrical solutions.",
         url: "https://gsctrades.com",
