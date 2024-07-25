@@ -46,6 +46,7 @@
               <li class="text-lg">- Gutenberg theme</li>
               <li class="text-lg">- Divi theme / page builder</li>
               <li class="text-lg">- Beaver Builder / page builder</li>
+              <li class="text-lg">- Breakdance Builder / page builder</li>
               <li class="text-lg">
                 - Oxygen Builder / plugin that works more like development
               </li>
