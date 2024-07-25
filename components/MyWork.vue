@@ -70,7 +70,7 @@ const props = defineProps({
         description:
           "An east coast electrical company specializing in industrial, commercial and construction electrical installation, repair and maintenance.",
         url: "https://hivolt.maverickbuild.com",
-        img: "https://procurepass.ai/wp-content/uploads/2024/06/procure-pass-01-01-1.svg",
+        img: "https://b3590996.smushcdn.com/3590996/wp-content/uploads/2024/02/panel-work.jpg?lossy=2&strip=1&webp=1",
         alt: "Hi Voltage Electric",
       },
       {
