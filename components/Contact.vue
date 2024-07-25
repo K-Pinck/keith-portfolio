@@ -16,7 +16,7 @@ import ContactForm from './ContactForm.vue';
         discuss how I can contribute to your goals and projects. Your message is
         the first step towards building a successful digital presence or
         exploring potential employment possibilities. Contact me through phone
-        or email
+        or email.
         <!-- <span class="font-bold text-gray-300 underline underline-offset-4">
           or just fill out the form below.
         </span> -->
