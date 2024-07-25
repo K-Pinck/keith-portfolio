@@ -17,9 +17,9 @@ import ContactForm from './ContactForm.vue';
         the first step towards building a successful digital presence or
         exploring potential employment possibilities. Contact me through phone
         or email
-        <span class="font-bold text-gray-300 underline underline-offset-4">
+        <!-- <span class="font-bold text-gray-300 underline underline-offset-4">
           or just fill out the form below.
-        </span>
+        </span> -->
       </p>
     </div>
     <div class="contact-main">
@@ -33,11 +33,11 @@ import ContactForm from './ContactForm.vue';
           <span class="text-green-500 font-bold sm:font-thin italic underline underline-offset-4 decoration-0">keith@emkay-design.com</span>
         </a>
       </div>
-      <div class="contact-form__wrap">
+      <!-- <div class="contact-form__wrap"> -->
         <!-- Form -->
         <ContactForm />
         <!-- /form -->
-      </div>
+      <!-- </div> -->
     </div>
   </section>
 </template>
