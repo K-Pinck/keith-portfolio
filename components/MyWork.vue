@@ -66,12 +66,12 @@ const props = defineProps({
     required: false,
     default: () => [
     {
-        name: "ProStar Builders",
+        name: "Hi Voltage Electric",
         description:
-          "A roofing company that specializes in high quality metal roofing with a combined 40 years of experience. Specializing in metal roofing of all types.",
-        url: "https://prostarbuilders.com/",
-        img: "/ProStar.jpg",
-        alt: "ProStar Builders",
+          "An east coast electrical company specializing in industrial, commercial and construction electrical installation, repair and maintenance.",
+        url: "https://hivolt.maverickbuild.com",
+        img: "/Hi-Voltage.jpg",
+        alt: "Hi Voltage Electric",
       },
       {
         name: "Hill Building Group",
