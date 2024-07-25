@@ -82,6 +82,14 @@ const props = defineProps({
         alt: "Gulf Stream Trades",
       },
       {
+        name: "Top Door",
+        description:
+          "Commercial door company specializing in commercial door installation, repair, and maintenance.",
+        url: "https://thetopdoor.com",
+        img: "/Top-Door.jpg",
+        alt: "Top Door",
+      },
+      {
         name: "Hill Building Group",
         description:
           "Construction company based in DFW. They specialize in commercial construction, and have a 5 star rating on Google.",
