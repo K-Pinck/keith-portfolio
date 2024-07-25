@@ -26,7 +26,7 @@
           <div
             class="mywork-card_header bg-white relative w-full h-[22vh] overflow-hidden"
           >
-            <NuxtImg
+            <img
               :src="work.img"
               :alt="work.alt"
               class="object-cover w-full h-full z-0 rounded-t-md"
